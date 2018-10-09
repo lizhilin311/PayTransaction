@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="roncoo-pay-app-message" />
+        <module name="roncoo-pay-app-queue" />
+        <module name="roncoo-pay-common-config" />
+        <module name="roncoo-pay-common-core" />
+        <module name="roncoo-pay-service-account" />
+        <module name="roncoo-pay-service-account-api" />
+        <module name="roncoo-pay-service-accounting" />
+        <module name="roncoo-pay-service-accounting-api" />
+        <module name="roncoo-pay-service-message" />
+        <module name="roncoo-pay-service-message-api" />
+        <module name="roncoo-pay-service-notify" />
+        <module name="roncoo-pay-service-notify-api" />
+        <module name="roncoo-pay-service-trade" />
+        <module name="roncoo-pay-service-trade-api" />
+        <module name="roncoo-pay-service-user" />
+        <module name="roncoo-pay-service-user-api" />
+        <module name="roncoo-pay-web-boss" />
+        <module name="roncoo-pay-web-gateway" />
+        <module name="roncoo-pay-web-message" />
+        <module name="roncoo-pay-web-sample-shop" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="roncoo-pay" options="-nowarn" />
+      <module name="roncoo-pay-app-message" options="-nowarn" />
+      <module name="roncoo-pay-app-queue" options="-nowarn" />
+      <module name="roncoo-pay-common-config" options="-nowarn" />
+      <module name="roncoo-pay-common-core" options="-nowarn" />
+      <module name="roncoo-pay-service-account" options="-nowarn" />
+      <module name="roncoo-pay-service-account-api" options="-nowarn" />
+      <module name="roncoo-pay-service-accounting" options="-nowarn" />
+      <module name="roncoo-pay-service-accounting-api" options="-nowarn" />
+      <module name="roncoo-pay-service-message" options="-nowarn" />
+      <module name="roncoo-pay-service-message-api" options="-nowarn" />
+      <module name="roncoo-pay-service-notify" options="-nowarn" />
+      <module name="roncoo-pay-service-notify-api" options="-nowarn" />
+      <module name="roncoo-pay-service-trade" options="-nowarn" />
+      <module name="roncoo-pay-service-trade-api" options="-nowarn" />
+      <module name="roncoo-pay-service-user" options="-nowarn" />
+      <module name="roncoo-pay-service-user-api" options="-nowarn" />
+      <module name="roncoo-pay-web-boss" options="-nowarn" />
+      <module name="roncoo-pay-web-gateway" options="-nowarn" />
+      <module name="roncoo-pay-web-message" options="-nowarn" />
+      <module name="roncoo-pay-web-sample-shop" options="-nowarn" />
+    </option>
+  </component>
+</project>
